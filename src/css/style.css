@@ -1,0 +1,42 @@
+:root {
+    --blue: #304FFE;
+}
+* {
+    margin: 0;
+    border: 0;
+}
+body {
+  font-family: Arial;
+  box-sizing: border-box;
+}
+.title {
+    background: var(--blue);
+    padding:10px;
+    color: #fff;
+    font-size:20px;
+}
+span {
+    font-size: 14px; 
+    padding: 5px;
+}
+canvas {
+  border: 1px solid #ccc;
+  display: block;
+}
+.container {
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+button {
+  padding: 4px 30px;
+  border: 0; 
+  outline: 0;
+  background: var(--blue);
+  color: #fff;
+  border-radius: 5px;
+  margin-left:5px;
+  margin-top:10px;
+  font-size:20px;
+  cursor: pointer;
+}
